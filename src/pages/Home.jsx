@@ -1,11 +1,13 @@
 import React from 'react';
 import Layout from '../layouts';
-import { Hero } from '../components';
+import { Hero, Technologies, Projects } from '../components';
 
 function Home() {
   return (
     <Layout>
       <Hero />
+      <Technologies />
+      <Projects />
     </Layout>
   );
 }

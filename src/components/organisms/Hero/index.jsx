@@ -59,7 +59,7 @@ const index = () => {
       <div>
         <h1
           ref={h11}
-          className="text-2xl text-light-primary dark:text-dark-primary md:text-4xl xl:text-5xl xl:leading-tight font-bold"
+          className="text-2xl text-dark-primary dark:text-light-primary md:text-4xl xl:text-5xl xl:leading-tight font-bold"
         >
           Hi,👋 <br /> My Name is <br />
         </h1>
@@ -71,7 +71,7 @@ const index = () => {
         </h1>
         <h3
           ref={h13}
-          className="w-full text-2xl text-light-primary dark:text-dark-primary md:text-4xl xl:text-5xl xl:leading-tight font-bold capitalize"
+          className="w-full text-2xl text-dark-primary dark:text-light-primary md:text-4xl xl:text-5xl xl:leading-tight font-bold capitalize"
         >
           fullstack web developer
         </h3>
@@ -81,7 +81,7 @@ const index = () => {
           src="https://avatars.githubusercontent.com/u/39686865?s=400&u=fc2b6fb61457a7a234a221ca52cbefa4387c554d&v=4"
           alt="Altrawan"
           ref={myimageref}
-          className="w-1/2 md:ml-auto w-100 border-8 border-light-primary dark:border-dark-primary rounded-full bg-slate-500"
+          className="w-1/2 md:ml-auto w-100 border-8 border-dark-primary dark:border-light-primary rounded-full bg-slate-500"
         />
       </div>
     </main>

@@ -1,9 +1,6 @@
-/* eslint-disable jsx-a11y/click-events-have-key-events */
-/* eslint-disable jsx-a11y/no-static-element-interactions */
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import { Logo } from '../../../assets';
+import { logo } from '../../../assets';
 
 const index = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +12,7 @@ const index = () => {
     <header className="container mx-auto md:flex justify-between py-2 max-width">
       <div className="flex justify-between items-center py-2">
         <NavLink to="/">
-          <img className="w-12" src={Logo} alt="logo" />
+          <img className="w-12" src={logo} alt="logo" />
         </NavLink>
         <div onClick={toggler} className="cursor-pointer">
           <svg
@@ -40,7 +37,7 @@ const index = () => {
           !isOpen ? 'hidden' : null
         } text-center md:flex justify-between`}
       >
-        <ul className="dark:text-light-content font-medium md:flex items-center md:space-x-5 md:mr-10">
+        <ul className="text-dark-content dark:text-light-content font-medium md:flex items-center md:space-x-5 md:mr-10">
           <li className="pb-1 md:pb-0">
             <NavLink to="/" onClick={toggler}>
               Home
@@ -71,7 +68,7 @@ const index = () => {
           <li>
             <a href="" target="_blank" rel="noreferrer noopener">
               <svg
-                className="dark:fill-light-heading fill-dark-heading"
+                className="fill-dark-primary dark:fill-light-primary"
                 width="32"
                 height="32"
                 viewBox="0 0 32 32"
@@ -85,7 +82,7 @@ const index = () => {
           <li>
             <a href="" target="_blank" rel="noreferrer noopener">
               <svg
-                className="dark:fill-light-heading fill-dark-heading"
+                className="fill-dark-primary dark:fill-light-primary"
                 width="30"
                 height="30"
                 viewBox="0 0 30 30"
@@ -99,7 +96,7 @@ const index = () => {
           <li>
             <a href="" target="_blank" rel="noreferrer noopener">
               <svg
-                className="dark:fill-light-heading fill-dark-heading"
+                className="fill-dark-primary dark:fill-light-primary"
                 width="30"
                 height="30"
                 viewBox="0 0 30 30"

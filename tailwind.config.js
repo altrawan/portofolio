@@ -7,8 +7,8 @@ module.exports = {
         primary: 'Poppins, sans-serif',
       },
       colors: {
-        'light-primary': '#42446E',
-        'dark-primary': '#FFFFFF',
+        'dark-primary': '#42446E',
+        'light-primary': '#FFFFFF',
         'light-content': '#A7A7A7',
         'dark-heading': '#1f2428',
         'dark-content': '#666666',
