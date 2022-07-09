@@ -13,5 +13,14 @@
     "sourceType": "module"
   },
   "plugins": ["react"],
-  "rules": {}
+  "rules": {
+    "comma-dangle": ["off"],
+    "linebreak-style": ["off"],
+    "import/prefer-default-export": ["off"],
+    "react/jsx-one-expression-per-line": ["off"],
+    "react/jsx-filename-extension": [
+      1,
+      { "extensions": [".js", ".jsx", ".ts", ".tsx"] }
+    ]
+  }
 }
