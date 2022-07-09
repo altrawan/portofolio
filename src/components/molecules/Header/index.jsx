@@ -3,6 +3,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import { Logo } from '../../../assets';
 
 const index = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,9 +13,9 @@ const index = () => {
 
   return (
     <header className="container mx-auto md:flex justify-between py-2 max-width">
-      <div className="flex justify-between items-center py-2 md:py-10">
+      <div className="flex justify-between items-center py-2">
         <NavLink to="/">
-          <img src="" alt="" />
+          <img className="w-12" src={Logo} alt="logo" />
         </NavLink>
         <div onClick={toggler} className="cursor-pointer">
           <svg
