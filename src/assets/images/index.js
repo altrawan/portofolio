@@ -30,6 +30,10 @@ import vuejs from './vuejs.png';
 
 // Projects
 import MamaRecipe from './Mama Recipe.png';
+import AnkasaTicketing from './Ankasa Ticketing.png';
+import PeworldHire from './Peworld Hire.png';
+import TelegramChat from './Telegram Chat.png';
+import BlanjaShop from './Blanja Shop.png';
 
 export {
   logo,
@@ -60,4 +64,8 @@ export {
   vscode,
   vuejs,
   MamaRecipe,
+  AnkasaTicketing,
+  PeworldHire,
+  TelegramChat,
+  BlanjaShop,
 };

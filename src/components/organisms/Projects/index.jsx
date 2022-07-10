@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card } from '../../index';
-import { MamaRecipe } from '../../../assets';
+import { projects } from '../../../data';
 
 export const Projects = () => {
   return (
@@ -13,46 +13,27 @@ export const Projects = () => {
           Things I&apos;ve built so far
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10">
-          <Card
-            title="Mama Recipe"
-            image={MamaRecipe}
-            description="Mama Recipe is here to help you cook delicious and simple meals."
-            techstack="React, CSS"
-            previewLink="https://mama-recipe.vercel.app/"
-            githubLink="https://github.com/altrawan/mama-recipe-app"
-          />
-          <Card
-            title="Mama Recipe"
-            image={MamaRecipe}
-            description="Mama Recipe is here to help you cook delicious and simple meals."
-            techstack="React, CSS"
-            previewLink="https://mama-recipe.vercel.app/"
-            githubLink="https://github.com/altrawan/mama-recipe-app"
-          />
-          <Card
-            title="Mama Recipe"
-            image={MamaRecipe}
-            description="Mama Recipe is here to help you cook delicious and simple meals."
-            techstack="React, CSS"
-            previewLink="https://mama-recipe.vercel.app/"
-            githubLink="https://github.com/altrawan/mama-recipe-app"
-          />
-          <Card
-            title="Mama Recipe"
-            image={MamaRecipe}
-            description="Mama Recipe is here to help you cook delicious and simple meals."
-            techstack="React, CSS"
-            previewLink="https://mama-recipe.vercel.app/"
-            githubLink="https://github.com/altrawan/mama-recipe-app"
-          />
-          <Card
-            title="Mama Recipe"
-            image={MamaRecipe}
-            description="Mama Recipe is here to help you cook delicious and simple meals."
-            techstack="React, CSS"
-            previewLink="https://mama-recipe.vercel.app/"
-            githubLink="https://github.com/altrawan/mama-recipe-app"
-          />
+          {React.Children.toArray(
+            projects.map(
+              ({
+                title,
+                image,
+                description,
+                techstack,
+                previewLink,
+                githubLink,
+              }) => (
+                <Card
+                  title={title}
+                  image={image}
+                  description={description}
+                  techstack={techstack}
+                  previewLink={previewLink}
+                  githubLink={githubLink}
+                />
+              )
+            )
+          )}
         </div>
       </section>
     </main>

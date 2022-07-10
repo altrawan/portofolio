@@ -7,8 +7,8 @@ const About = () => {
     <Layout>
       <main className="container mx-auto max-width pt-10 pb-20 mt-10">
         <section>
-          <h1 className="text-2xl text-dark-primary dark:text-light-primary md:text-4xl xl:text-5xl xl:leading-tight font-bold">
-            About Me
+          <h1 className="text-1xl text-dark-primary dark:text-light-primary md:text-3xl xl:text-4xl xl:leading-tight font-bold capitalize">
+            about me
           </h1>
           <p className="text-content py-8 lg:max-w-3xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
@@ -18,8 +18,8 @@ const About = () => {
           </p>
         </section>
         <section>
-          <h1 className="text-2xl text-dark-primary dark:text-light-primary md:text-4xl xl:text-5xl xl:leading-tight font-bold">
-            Work Experience
+          <h1 className="text-1xl text-dark-primary dark:text-light-primary md:text-3xl xl:text-4xl xl:leading-tight font-bold capitalize">
+            work experience
           </h1>
           <Timeline
             position="Staff IT"
@@ -29,9 +29,9 @@ const About = () => {
             duration="May 2018 - Jul 2018"
           />
         </section>
-        <section>
-          <h1 className="text-2xl pt-10 text-dark-primary dark:text-light-primary md:text-4xl xl:text-5xl xl:leading-tight font-bold">
-            Education
+        <section className="mt-6">
+          <h1 className="text-1xl text-dark-primary dark:text-light-primary md:text-3xl xl:text-4xl xl:leading-tight font-bold capitalize">
+            education
           </h1>
           <Timeline
             position="Rekayasa Perangkat Lunak"
