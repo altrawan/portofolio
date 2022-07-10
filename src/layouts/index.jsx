@@ -1,10 +1,13 @@
+/* eslint-disable react/forbid-prop-types */
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Header, Footer } from '../components';
+import { useDarkMode } from '../hooks/useDarkMode';
 
 export const Layout = ({ children }) => {
+  useDarkMode();
   return (
-    <div className="bg-light-mode dark:bg-dark-mode">
+    <div className="bg-light-mode dark:bg-dark-mode transition duration-500">
       <Header />
       {children}
       <Footer />
@@ -13,9 +16,9 @@ export const Layout = ({ children }) => {
 };
 
 Layout.propTypes = {
-  children: PropTypes.func,
+  children: PropTypes.array,
 };
 
 Layout.defaultProps = {
-  children: PropTypes.func,
+  children: PropTypes.array,
 };

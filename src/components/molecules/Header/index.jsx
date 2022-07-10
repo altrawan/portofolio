@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { logo } from '../../../assets';
+import { Toggle } from '../../index';
 
 export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -65,6 +66,7 @@ export const Header = () => {
           </li>
         </ul>
         <ul className="flex justify-evenly items-center my-5 md:my-0 md:space-x-5 md:mr-5">
+          <Toggle />
           <li>
             <a href="" target="_blank" rel="noreferrer noopener">
               <svg

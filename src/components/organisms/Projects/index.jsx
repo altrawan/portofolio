@@ -53,14 +53,6 @@ export const Projects = () => {
             previewLink="https://mama-recipe.vercel.app/"
             githubLink="https://github.com/altrawan/mama-recipe-app"
           />
-          <Card
-            title="Mama Recipe"
-            image={MamaRecipe}
-            description="Mama Recipe is here to help you cook delicious and simple meals."
-            techstack="React, CSS"
-            previewLink="https://mama-recipe.vercel.app/"
-            githubLink="https://github.com/altrawan/mama-recipe-app"
-          />
         </div>
       </section>
     </main>
