@@ -19,6 +19,7 @@
     "linebreak-style": ["off"],
     "import/prefer-default-export": ["off"],
     "import/no-cycle": ["off"],
+    "object-curly-newline": ["off"],
     "react/function-component-definition": ["off"],
     "react/jsx-one-expression-per-line": ["off"],
     "jsx-a11y/click-events-have-key-events": ["off"],

@@ -1,4 +1,3 @@
-/* eslint-disable object-curly-newline */
 import React from 'react';
 import { Layout } from '../layouts';
 import { Hero, Technologies, Projects, ScrollToTop } from '../components';

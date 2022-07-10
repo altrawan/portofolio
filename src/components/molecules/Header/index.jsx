@@ -45,22 +45,22 @@ export const Header = () => {
             </NavLink>
           </li>
           <li className="pb-1 md:pb-0">
-            <NavLink to="/" onClick={toggler}>
+            <NavLink to="/about" onClick={toggler}>
               About
             </NavLink>
           </li>
           <li className="pb-1 md:pb-0">
-            <NavLink to="/" onClick={toggler}>
+            <NavLink to="/technologies" onClick={toggler}>
               Technologies
             </NavLink>
           </li>
           <li className="pb-1 md:pb-0">
-            <NavLink to="/" onClick={toggler}>
+            <NavLink to="/projects" onClick={toggler}>
               Projects
             </NavLink>
           </li>
           <li className="pb-1 md:pb-0">
-            <NavLink to="/" onClick={toggler}>
+            <NavLink to="/contact" onClick={toggler}>
               Contact
             </NavLink>
           </li>
