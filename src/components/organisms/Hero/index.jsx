@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import gsap from 'gsap';
 
-const index = () => {
+export const Hero = () => {
   const h11 = useRef();
   const h12 = useRef();
   const h13 = useRef();
@@ -87,5 +87,3 @@ const index = () => {
     </main>
   );
 };
-
-export default index;

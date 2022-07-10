@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { logo } from '../../../assets';
 
-const index = () => {
+export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggler = () => {
     setIsOpen(!isOpen);
@@ -116,5 +116,3 @@ const index = () => {
     </header>
   );
 };
-
-export default index;

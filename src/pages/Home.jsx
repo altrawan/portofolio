@@ -1,15 +1,19 @@
+/* eslint-disable object-curly-newline */
 import React from 'react';
-import Layout from '../layouts';
-import { Hero, Technologies, Projects } from '../components';
+import { Layout } from '../layouts';
+import { Hero, Technologies, Projects, ScrollToTop } from '../components';
 
-function Home() {
+const Home = () => {
   return (
-    <Layout>
-      <Hero />
-      <Technologies />
-      <Projects />
-    </Layout>
+    <>
+      <Layout>
+        <Hero />
+        <Technologies />
+        <Projects />
+      </Layout>
+      <ScrollToTop />
+    </>
   );
-}
+};
 
 export default Home;

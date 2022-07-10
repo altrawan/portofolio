@@ -1,3 +1,4 @@
-import Card from './Card';
+import { Card } from './Card';
+import { ScrollToTop } from './ScrollToTop';
 
-export { Card };
+export { Card, ScrollToTop };

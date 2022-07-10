@@ -14,10 +14,12 @@
   },
   "plugins": ["react"],
   "rules": {
+    "arrow-body-style": ["off"],
     "comma-dangle": ["off"],
     "linebreak-style": ["off"],
     "import/prefer-default-export": ["off"],
     "import/no-cycle": ["off"],
+    "react/function-component-definition": ["off"],
     "react/jsx-one-expression-per-line": ["off"],
     "jsx-a11y/click-events-have-key-events": ["off"],
     "jsx-a11y/no-static-element-interactions": ["off"],
